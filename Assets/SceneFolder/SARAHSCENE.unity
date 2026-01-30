@@ -223,14 +223,83 @@ Transform:
   m_GameObject: {fileID: 211582104}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.459976, y: -1.5604583, z: 3.6586728}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -19.75, y: -1.5604583, z: 3.6586728}
+  m_LocalScale: {x: 50, y: 1, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &518196597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 212.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5604582
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 209.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6219604
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7830487
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 103.081
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0f218d5ec03aedb4f85b8cc18be54339,
+        type: 3}
+      propertyPath: m_Name
+      value: Global Point Business park Building 3 prototype
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f218d5ec03aedb4f85b8cc18be54339, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 211582108}
+  - {fileID: 518196597}
