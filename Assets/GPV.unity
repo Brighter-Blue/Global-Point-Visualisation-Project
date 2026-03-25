@@ -326,6 +326,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a5880321e0fd494dafff07e2aa18197,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1375041351}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a5880321e0fd494dafff07e2aa18197,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1375041352}
   m_SourcePrefab: {fileID: 100100000, guid: 0a5880321e0fd494dafff07e2aa18197, type: 3}
 --- !u!1 &678960526
@@ -432,6 +436,23 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 589179312}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1375041351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375041348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e647b0236c41aaf48b3bad1c8872ba43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlinePixelWidth: 101
+  renderers:
+  - {fileID: 1375041349}
+  outlineShader: {fileID: 4800000, guid: 673aa51ada0b6b8479551975e71d77ff, type: 3}
 --- !u!114 &1375041352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,14 +462,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1375041348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8264f3555d7da224dbd501560d35f6a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dd88e2142aa4bd4085e2e38c0ee751f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlinePixelWidth: 20
-  renderers:
-  - {fileID: 1375041349}
-  outlineShader: {fileID: 4800000, guid: 6ff1593dae804274393a2da6c591e658, type: 3}
+  objectAffected: {fileID: 1375041348}
+  playerCamera: {fileID: 0}
+  distance: 0
+  size: 0
+  sizeChange: 0
 --- !u!1 &1540518593
 GameObject:
   m_ObjectHideFlags: 0
