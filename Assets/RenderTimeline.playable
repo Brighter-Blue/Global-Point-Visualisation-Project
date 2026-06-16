@@ -22,16 +22,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.21666666666666667
+    m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 1775808802836231022}
-    m_Duration: 24.783333333333335
+    m_Asset: {fileID: 1343689318813941363}
+    m_Duration: 24.316666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7287059545782917152}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 21.866666666666667
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -73,15 +73,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Virtual Camera 01
   - m_Version: 1
-    m_Start: 25
+    m_Start: 2.45
     m_ClipIn: 0
-    m_Asset: {fileID: 2848986197385683181}
-    m_Duration: 24.983333333333334
+    m_Asset: {fileID: 3316196980914047747}
+    m_Duration: 24.199999999999996
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7287059545782917152}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 21.866666666666667
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 6
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &1775808802836231022
+--- !u!114 &1343689318813941363
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 779d392b33b43b945a4b5425889f017c
+    exposedName: 7013b30fc467aa1409a10991d8ab087f
     defaultValue: {fileID: 0}
---- !u!114 &2848986197385683181
+--- !u!114 &3316196980914047747
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 5219dc64a918cff4e8fd7cfc8df5dc25
+    exposedName: 73fa6097b97281a4787dc118c316fb41
     defaultValue: {fileID: 0}
 --- !u!114 &6349333645805898758
 MonoBehaviour:
